@@ -28,7 +28,7 @@ const techLogosDark = [
 function Loop() {
   const {darkMode} = useDarkMode();
   return (
-    <div className='transition-all duration-300 mt-20 mx-auto' style={{ height: '200px', position: 'relative', overflow: 'hidden', width: '1000px'}}>
+    <div className='transition-all duration-300 mt-20 mx-auto' style={{ height: '200px', position: 'relative', overflow: 'hidden', width: '100%'}}>
       {darkMode?
         <LogoLoop
         logos={techLogosDark}
